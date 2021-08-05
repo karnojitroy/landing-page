@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #252B42;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background-header{
+    width: 100%;
+    height: 600px;
+    background-image: url(images/top-banner-1.jpg);
+    background-size: cover;
+}
+
+.header-btn-1,
+.header-btn-2{
+    border-radius: 50px;
+}
+.header-btn-2:hover a{
+    color: black !important;
+}
+.blue-card{
+    background-color: #23A6F0 !important;
+    color: white;
+}
+.blue-card i{
+    color: white;
+}
+.card-icon{
+    font-size: 45px;
+    color: #23A6F0;
+}
+.header-bottom{
+    margin-bottom: 250px;
+}
+.section-top-margin{
+    margin-top: 140px;
+}
+
+/* client  */
+.client-h6,
+.client-p{
+    color: #737373;
+}
+
+.ratingbar ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.ratingbar ul li{
+    list-style: none;
+    padding: 0px 5px;
+}
+.ratingbar .field-color{
+    color: #F3CD03;
+}
+.ratingbar .empty-field-color{
+    color: #F3CD03;
+}
+/* FQA */
+.card-arrow-icon{
+color: #23A6F0;
+}
+.feature-item i{
+    font-size: 32px;
+
+}
+.pricing-feature-green-icon {
+    color: green;
+}
+.pricing-feature-gray-icon {
+    color: #BDBDBD
+}
+.card-button{
+    width: 100%;
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 8px 12px;
+}
+.card-button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* footer */
+.bg-footer-middle-contact{
+    background: linear-gradient(270deg, #D71489 -1.04%, #004788 100%);
+}
+
+.feature-item i{
+    font-size: 22px;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .menu-bg{
+        background-color:#252B42;
+    }
+    .background-header{
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .section-top-margin{
+        margin-top:80px;
+    }
+    .header-bottom{
+        margin-bottom: 75px;
+    }
+    .footer-last-icons{
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    .fa-instagram {
+        color: red;
+    }
+    .fa-youtube{
+        color: red;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+      .fa-youtube{
+          display: none;
+      }
+  }
+
+  
