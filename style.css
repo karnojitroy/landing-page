@@ -106,6 +106,9 @@ color: #23A6F0;
         height: auto;
         padding-bottom: 15px;
     }
+    .login-become-member{
+        display: none;
+    }
     .section-top-margin{
         margin-top:80px;
     }
